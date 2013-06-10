@@ -17,7 +17,9 @@
 		2493AE9C17653DAF007EAC2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2493AE9B17653DAF007EAC2E /* Default@2x.png */; };
 		2493AE9E17653DAF007EAC2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2493AE9D17653DAF007EAC2E /* Default-568h@2x.png */; };
 		2493AEA117653DAF007EAC2E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2493AE9F17653DAF007EAC2E /* MainStoryboard.storyboard */; };
-		2493AEA417653DAF007EAC2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2493AEA317653DAF007EAC2E /* ViewController.m */; };
+		2493AEAC17653DF1007EAC2E /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2493AEAB17653DF1007EAC2E /* ViewController1.m */; };
+		2493AEB2176545A4007EAC2E /* Blist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2493AEB1176545A4007EAC2E /* Blist.plist */; };
+		249E7464176564A700908577 /* lecture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 249E7463176564A700908577 /* lecture.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,10 @@
 		2493AE9B17653DAF007EAC2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2493AE9D17653DAF007EAC2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2493AEA017653DAF007EAC2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2493AEA217653DAF007EAC2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2493AEA317653DAF007EAC2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2493AEAA17653DF1007EAC2E /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		2493AEAB17653DF1007EAC2E /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		2493AEB1176545A4007EAC2E /* Blist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Blist.plist; sourceTree = "<group>"; };
+		249E7463176564A700908577 /* lecture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lecture.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				2493AE9617653DAE007EAC2E /* AppDelegate.h */,
+				2493AEB1176545A4007EAC2E /* Blist.plist */,
 				2493AE9717653DAE007EAC2E /* AppDelegate.m */,
 				2493AE9F17653DAF007EAC2E /* MainStoryboard.storyboard */,
-				2493AEA217653DAF007EAC2E /* ViewController.h */,
-				2493AEA317653DAF007EAC2E /* ViewController.m */,
 				2493AE8E17653DAE007EAC2E /* Supporting Files */,
+				2493AEAA17653DF1007EAC2E /* ViewController1.h */,
+				2493AEAB17653DF1007EAC2E /* ViewController1.m */,
+				249E7463176564A700908577 /* lecture.plist */,
 			);
 			path = testmi;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				2493AE9C17653DAF007EAC2E /* Default@2x.png in Resources */,
 				2493AE9E17653DAF007EAC2E /* Default-568h@2x.png in Resources */,
 				2493AEA117653DAF007EAC2E /* MainStoryboard.storyboard in Resources */,
+				2493AEB2176545A4007EAC2E /* Blist.plist in Resources */,
+				249E7464176564A700908577 /* lecture.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +183,7 @@
 			files = (
 				2493AE9417653DAE007EAC2E /* main.m in Sources */,
 				2493AE9817653DAE007EAC2E /* AppDelegate.m in Sources */,
-				2493AEA417653DAF007EAC2E /* ViewController.m in Sources */,
+				2493AEAC17653DF1007EAC2E /* ViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +306,7 @@
 				2493AEA917653DAF007EAC2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
